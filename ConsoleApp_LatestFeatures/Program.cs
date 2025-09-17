@@ -24,7 +24,7 @@ namespace ConsoleApp_LatestFeatures
                 set
                 {
                     if (string.IsNullOrWhiteSpace(value))
-                        throw new ArgumentException("Name cannot be empty");
+                        throw new ArgumentException("Name cannot be empty!");
                     _name = value.Trim();
                 }
             }
